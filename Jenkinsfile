@@ -4,8 +4,13 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'ls'
+                sh 'mv clean page'
             }
         }
+        stage('test){
+              steps{
+                  sh 'mv test ;
+              }
+              }
     }
 }
