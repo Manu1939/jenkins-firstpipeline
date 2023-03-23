@@ -7,9 +7,9 @@ pipeline {
                 sh 'mv clean page'
             }
         }
-        stage('test){
+        stage('test'){
               steps{
-                  sh 'mv test ;
+                  sh 'mv test' 
               }
               }
     }
